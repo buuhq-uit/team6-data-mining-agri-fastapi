@@ -9,6 +9,14 @@ python -m venv .venv
 
 # 3) active (Windows (cmd)):
 .\.venv\Scripts\activate.bat
+# or
+.venv\Scripts\activate
+
+## Power shell
+.\.venv\Scripts\Activate.ps1
+
+## mac linux
+source .venv/bin/activate
 
 # 4) install packages
 pip install -r requirements.txt
